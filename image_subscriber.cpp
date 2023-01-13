@@ -23,6 +23,7 @@ static FrameClient::frame_t                  temp_buffer;
 
 static sf::RectangleShape                    draw_rect;
 
+// https://stackoverflow.com/questions/16826422/c-most-efficient-way-to-convert-string-to-int-faster-than-atoi
 static int fast_atoi(const char* first, const char* last)
 {
     int val = 0;
